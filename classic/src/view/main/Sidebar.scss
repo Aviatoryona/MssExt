@@ -1,0 +1,51 @@
+
+.sidebar{
+    .x-dataview-item {
+        cursor: pointer;
+        .icon {
+            display: inline-block;
+            font-size: 14px;
+            line-height: 1;
+        //     margin-right: $sidebar-icon-horizontal-spacing;
+        //     height: $sidebar-icon-size;
+        //     width: $sidebar-icon-size;
+            text-align: center;
+            vertical-align: middle;
+
+        //     .x-big & {
+        //         font-size: $sidebar-icon-size-big;
+        //         margin-right: $sidebar-icon-horizontal-spacing-big;
+        //         height: $sidebar-icon-size-big;
+        //         width: $sidebar-icon-size-big;
+        //     }
+        };
+        .widget-item>div+div{
+            border-top: 1px solid #555
+        }
+    }
+
+    .x-dataview-dark {
+        border-bottom: 2px solid contrasted(#000, 5%);
+    }
+}
+
+.widget-menu{
+    // cursor: pointer;
+    background-color: #2d2b32;
+    border-radius: 3px
+}
+
+.widget-item{
+    padding: 4px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.menuicon{
+    color:#767676;
+}
+
+.menutext{
+    color: #767676;
+    margin-left:8px;
+}
